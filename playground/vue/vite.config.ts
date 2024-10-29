@@ -7,10 +7,7 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      '@packages': fileURLToPath(new URL('../', import.meta.url)),
+      '@packages': fileURLToPath(new URL('../../packages', import.meta.url)),
     },
-  },
-  server: {
-    port: 5000,
   },
 })

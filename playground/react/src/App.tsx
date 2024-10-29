@@ -1,6 +1,6 @@
 import { useState } from "react";
-import ArkCombobox from "./components/ArkCombobox";
-import RadixDropdownMenu from "./components/RadixDropdownMenu";
+import ArkCombobox from "@packages/react/components/ArkCombobox";
+import RadixDropdownMenu from "@packages/react/components/RadixDropdownMenu";
 
 function App() {
   const comboboxItems = ["React", "Solid", "Vue"];

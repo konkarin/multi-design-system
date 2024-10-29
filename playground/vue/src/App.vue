@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import ArkCombobox from './components/ArkCombobox.vue'
-import RadixDropdownMenu from './components/RadixDropdownMenu.vue'
+import ArkCombobox from '@packages/vue/components/ArkCombobox.vue'
+import RadixDropdownMenu from '@packages/vue/components/RadixDropdownMenu.vue'
 
 const comboboxItems = ['React', 'Solid', 'Vue']
 const comboboxSelections = ref<string[]>(['Vue'])
